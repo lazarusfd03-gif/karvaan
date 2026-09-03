@@ -1,0 +1,17 @@
+/* Featured-performance hero: a cinematic browsing pattern adapted for Karvaan. */
+@media(min-width:761px){
+  .hero{height:min(780px,calc(100vh - 120px));min-height:620px;margin:96px 3.15vw 0;border:1px solid rgba(185,150,93,.34);border-radius:20px;overflow:hidden;display:grid;place-items:normal;background:#121116}
+  .hero-image{background-color:#38243d;background-blend-mode:multiply;filter:saturate(.78) brightness(.84) sepia(.1);background-position:center 45%}
+  .hero-shade{background:linear-gradient(90deg,rgba(7,7,9,.94) 0%,rgba(7,7,9,.72) 27%,rgba(7,7,9,.16) 67%,rgba(7,7,9,.08) 100%),linear-gradient(0deg,rgba(7,7,9,.83),transparent 35%)}
+  .hero-copy{justify-self:start;align-self:end;max-width:580px;margin:0 0 76px clamp(38px,5vw,80px);padding:0;text-align:left}
+  .hero h1{font-size:clamp(62px,6vw,96px);margin:17px 0 22px}
+  .hero-description{max-width:465px;font-size:22px;margin:0 0 27px}
+  .hero-actions{justify-content:flex-start;gap:10px}
+  .hero .gold{background:#f4f0e8;color:#0c0b0d;border-color:#f4f0e8}
+  .hero .gold:hover{background:#fff}
+  .hero .outline{background:rgba(55,48,59,.78);border-color:transparent;color:#f5f0e8}
+  .hero .outline:hover{background:rgba(87,76,93,.93)}
+  .scroll-cue{bottom:23px;left:50%;transform:translateX(-50%)}
+}
+.nav-home{background:rgba(255,255,255,.14);border-radius:999px;padding:8px 15px;color:#fff!important}
+@media(max-width:760px){.nav-home{padding:0;background:transparent;color:var(--antique-light)!important}.hero{margin:60px 0 0;min-height:660px;border-radius:0;border:0}.hero-image{filter:saturate(.72) brightness(.74) sepia(.12)}.hero-shade{background:linear-gradient(0deg,rgba(5,5,7,.9),rgba(5,5,7,.04) 75%),linear-gradient(90deg,rgba(5,5,7,.48),rgba(5,5,7,.12))}.hero-copy{padding-bottom:82px}.hero .gold{background:#f4f0e8;color:#0c0b0d}.hero .outline{background:rgba(48,42,52,.82);border-color:transparent}}
